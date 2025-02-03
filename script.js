@@ -2,7 +2,7 @@
 
 function enviar() {
 
-    fetch("https://formsubmit.co/ajax/ramirezrojasfabio@gmail.com", {
+    fetch("https://formsubmit.co/ajax/fernandazamoraloria@gmail.com", {
         method: "POST",
         headers: {
             'Content-Type': 'application/json',
@@ -10,7 +10,7 @@ function enviar() {
         },
         body: JSON.stringify({
             Nombre: "Fabio Ramírez Rojas",
-            Email: "fernandazamoraloria@gmail.com",
+            Email: "ramirezrojasfabio@gmail.com",
             Asunto: "Invitación Formal día Viernes 14 de Febrero a las 3:00 pm",
             Mensaje: "Buenas tardes, me gustaría invitarla a una cita el día viernes 14 de febrero a las 3:00 pm en la que realizaremos actividades que no se pueden revelar ya que son de caracter confidencial. Tenemos 3 actividades que sé que te encantarán!"
         })
